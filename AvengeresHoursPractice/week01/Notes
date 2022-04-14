@@ -1,0 +1,17 @@
+
+Topics:
+1. Type Casting
+
+    a. Implicit Casting
+            Done by compiler/Machine/Computer
+            smaller to bigger data type
+            NO Data loss
+    b. Explicit Casting
+            There is Data loss
+            Done by developer/human/tester/coder
+            NARROWİNG
+
+2.String Methods:
+
+        charAt();
+        length();
