@@ -1,6 +1,6 @@
 package day43_Abstraction.Employee;
 
-public class Driver extends Employee{
+public final class Driver extends Employee{
     public Driver(String name, int age, char gender, int id, String jobTitle, double salary) {
         super(name, age, gender, id, jobTitle, salary);
     }
@@ -12,7 +12,7 @@ public class Driver extends Employee{
 
     @Override
     public void sleep() {
-        System.out.println(getName()+" is sleeping 6 hours");
+        System.out.println(getName()+" is sleeping 16 hours");
     }
 
 
