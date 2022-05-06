@@ -6,9 +6,9 @@ public class AtTheGym {
         //Exercise exercise = new Exercise() {
 
 
-Running running = new Running();
-Swimming swimming = new Swimming();
-FreeWeight freeWeight = new FreeWeight();
+Running running = new Running(90);
+Swimming swimming = new Swimming(90);
+FreeWeight freeWeight = new FreeWeight(90);
 
 //Exercise polyObject = new Running();
 running.start();
@@ -18,7 +18,9 @@ swimming.start();
 swimming.perform();
         System.out.println("Swimming for 30 minutes: "+ swimming.getCaloriesCount(30));
 
-
+freeWeight.start();
+freeWeight.perform();
+        System.out.println("Freeweight exercise for 30 minutes-Calories: "+freeWeight.getCaloriesCount(30));
 
     }
 }
